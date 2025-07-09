@@ -6,6 +6,15 @@ This project utilizes the YOLOv8n detection model, trained on a custom brain MRI
 
 ## brain-tumor-detection.py
 
+This script uses a YOLOv8n model alongside OpenCV to perform single-image inference on brain MRI scans. It loads a brain MRI image, runs detection using a trained YOLOv8 model, and identifies the presence of brain tumors.
+
+The script reads the image with OpenCV, processes it with the YOLOv8 model, extracts detection results, and returns the predicted tumor presence based on the model's output.
+
+## Model and Training Results
+
+The trained model and evaluation outputs  can be accessed from the following Google Drive link:
+
+🔗 https://drive.google.com/drive/folders/1C8LwRcASgRTuIjwnmMlm83s3HxL1B75_?usp=sharing
 
 ## Dataset
 
